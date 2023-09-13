@@ -1,21 +1,22 @@
 #HTML
 =====
 
-<br>--revient à la ligne
-<hr>--fait un trait de ligne
-atribut--ajoute des propriétés spéciales à la balise (entre les guillemets = valeur) 
-tag = balise
-//html select tag//
+- <br>--revient à la ligne
+- <hr>--fait un trait de ligne
+- atribut--ajoute des propriétés spéciales à la balise (entre les guillemets = valeur) 
+- tag = balise
+- //html select tag//
+- Pour les commentaires en html Crtl/
 
-
-Créer une deuxième page html et la relier 
+###Créer une deuxième page html et la relier 
 -----------------------------------------
 
-Il est important de garder le nom : index.html car l'interpreteur saura que c'est la première page!
+- Il est important de garder le nom : index.html car l'interpreteur saura que c'est la première page!
 
-créer une page html classique, index.html
+- Créer une page html classique, index.html
 puis y mettre une ancre dans le body
 
+```html
 <a href="pageDeux">
 <h1>page 2</h1> </a>(le titre est cliquable mais ne mène nulle part à ce stade!)
 
@@ -24,9 +25,10 @@ créer une deuxième page html par exemple pageDeux.html
 <a href="index.html">
 <h1>page 1</h1>
 </a>
+```
 
-Le titre page 1 est cliquable et nous dirigera vers la pageUne.
-NB. Nous pouvons mettre un texte entre les balises a (ex: cliquez ici, suivant, précèdent, etc...)
+- Le titre page 1 est cliquable et nous dirigera vers la pageDeux.
+NB. Nous pouvons mettre un texte entre les balises a (ex: cliquez ici, suivant, précedent, etc...)
 sans mettre de titre.
 
 Chemin relatif et absolu
@@ -80,6 +82,9 @@ Envoyer: <input type="submit" value="s'inscrire"><br> (Si on ne donne pas de nom
 
 Méthodes GET POST
 -----------------
+
+De base, lorsqu'on envoie un formulaire, c'est la méthode GET qui est par défault.<br>
+Nous utiliserons POST pour l'envoyer directement au back-end. 
 
 
 

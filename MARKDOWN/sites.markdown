@@ -113,3 +113,17 @@ WebGradients.com : https://webgradients.com/
 CSS Gradient : https://cssgradient.io/
 
 Can I use.. https://caniuse.com/
+
+https://www3schools
+
+https://css-tricks.com
+puis almanach
+ressource de toute les propriétés css
+y compris les selecteurs!
+
+https://paleton.com
+
+https://specificity-calculatoe
+
+https://CLEANS.COM
+pour minifier le code
