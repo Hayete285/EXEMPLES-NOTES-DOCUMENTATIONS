@@ -32,3 +32,13 @@ Outils
 ------
 
 tailwind css---ressemble à boostrap
+
+|creativité|contrôle|impact| =/= passion
+
+"Devenez si bon qu'ils ne peuvent pas vous ignorez!"
+
+
+HTML décrit la structure de la page tandis que CSS décrit son apparence, son style
+
+
+Permettre d'interagir avec les éléments de la page web
