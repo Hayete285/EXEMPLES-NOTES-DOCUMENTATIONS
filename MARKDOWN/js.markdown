@@ -28,3 +28,17 @@ pomme
 bananne
 
 <script src="src/script.js"></script>//pour ajouter un script JavaScript juste avant la fermante de body//
+
+var nom = ['BENS']
+console.log(nom)
+var prénom = [' Hayete']
+console.log(nom + prénom)
+var age = 54
+console.log(age)
+var age1 = 5
+console.log(age + age1)
+
+(1) ["BENS"]
+BENS Hayete
+54
+59
