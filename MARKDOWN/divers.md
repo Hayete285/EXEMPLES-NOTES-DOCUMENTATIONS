@@ -32,7 +32,7 @@ N.2 = santé-------------------------------------------------------------4
       5.apprendre à faire du vélo
 N.3 = finances----------------------------------------------------------4
       1.gagner plus d'argent
-      2.
+      2.épargner 20% de l'argent gagné
 N.4 = apprentissage-----------------------------------------------------4
       1.trouver une alternance
       2.passer mon diplôme
