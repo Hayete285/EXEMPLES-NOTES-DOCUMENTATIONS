@@ -9,9 +9,9 @@
 
 String :
 --------
-``js
+
 var nom = 'Hayete';
-``
+
 Number :
 --------
 
