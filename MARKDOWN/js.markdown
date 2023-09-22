@@ -235,7 +235,7 @@ console.log("La somme des éléments de la liste est : " + somme);
 //et ajoute chaque élément à la somme.Enfin, il affiche la somme totale.
 
 
-Mélange de tpe de données :
+Mélange de type de données :
 --------------------------
 
 //En JavaScript, il existe plusieurs types de données, notamment :
