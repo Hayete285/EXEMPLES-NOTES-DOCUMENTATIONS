@@ -21,5 +21,6 @@
          expliquer le contenu).
        - opengraph sert à être plus visible sur les réseaux.(méta property="" content="") Il peut y en avoir plusieurs. 
        
+![OpenGraph](image.png)
 
 3 - Site rapide (performant)
