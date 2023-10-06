@@ -582,3 +582,98 @@ console.log(age + age1)
 BENS Hayete
 54
 59
+---------------------------------------------
+|côté serveur : node.js où tri.js pour la 3D|
+---------------------------------------------
+
+-Une ligne de code est une instruction et le point virgule permet de dire à l'instructeur que l'instruction est terminée
+et qu'il peut passer à l'instruction suivante.
+-Un bloc d'instruction est limité par une accolade ouvrante et une fermante.
+-L'eensemble entre ce bloc d'accolade font partie d'une instruction.
+
+
+###Déclarer une variable (c'est donner une valeur)
+------------------------
+
+-Une variable est une case mémoire.
+
+Il y a deux sortes de variables celles qui peuvent changer : let et var,
+et celle qui ne change pas : const.
+
+let alias = "Hayete"; //notez que l'on met des guillemets pour les string//
+let price = 10;
+let marque; //ici elle est indefined//
+const myconst= 3; //elle sera toujours 3 quoiqu'il arrive//
+let pricetwo = 23.
+
+price * pricetwo / myconst;
+
+ATTENTION : ON NE PEUT PAS DONNER DEUX FOIS LE MEME NOM A UNE VARIABLE.
+-----------------------------------------------------------------------
+
+DE MEME QU'ON NE PEUT PAS COMMENCER PAR UN CHIFFRE AU MILIEU OU A LA FIN C'EST POSSIBLE.
+---------------------------------------------------------------------------------------
+
+IL VAUT ECRIRE LES VARIABLES EN ANGLAIS.
+---------------------------------------
+
+EVITER D'AVOIR DES NOMS DE VARIABLES TROP LONG, ILS DOIVENT ETRE INTUITIFS ET DECRIRE CE QU'ILS CONTIENNENT.
+------------------------------------------------------------------------------------------------------------
+
+ATTENTION A LA CASSE; JS EST SENSIBLE A LA CASSE! Utilisez le camelcase.
+------------------------------------------------------------------------
+
+NE PAS UTILISEZ LES MOTS CLES DE JS POUR NOMMER LES VARIABLES.
+-------------------------------------------------------------
+
+
+
+##FONCTION
+----------
+
+Une fonction est une instruction effectuant une tâche où calculant une valeur, une fonction peut retourner des données où non.
+Pour utiliser une fonction, il est nécessaire de l'avoir défini et déclarer pour pouvoir l'utiliser.
+
+Entre les parenthèses nous y assignerons un où des arguments pour que la fonction puisse fonctionner correctement, mais cela n'est pas obligatoire.
+Ces variables ne seront pas accessibles en dehors de cette fonction.
+
+
+``Javascript
+function multiplyBy(nb, nb2){
+    //instructions
+    return//dans le cas où l'on voudrait obtenir une réponse(ce qui n'est pas toujours obligatoire) le résultat, console.log, bouléan, etc...//
+}
+multiplyBy()
+Le fait d'ouvrir des parenthèses cela s'appelle 'invoquer'.
+Entre les parenthèse les données sont appellées 'paramétres'.
+
+mutiplyBy(nb,nb2);
+
+Pour le stocker dans une variable : 
+let produit = multiplyBy(nb:23, nb2:9);
+Pour l'afficher :
+console.log('produit:', produit);
+
+Nous pouvons obtenir plusieurs résultats dans le même console.log :
+console.log(mutiplyBy(nb:48, nb2:59),mutplyBy(nb:21, nb2:14)multiplyBy(nb:12, nb2:25)); 
+
+Exemple:
+-------
+
+function multiplyBy(nb3, nb4){
+    consolelog('produit:'nb3 * nb4)
+}
+multiplyBy(nb3:1, nb4:6);
+multiplyBy(nb3:2, nb4:7);
+multiplyBy(nb3:3, nb4:8);
+multiplyBy(nb3:4, nb4:9);
+multiplyBy(nb3:5, nb4:10);
+
+
+Pour vérifier une valeur:
+
+function checkValue(value){
+   console.log(value === 30);
+}
+checkValue(value:30);//retournera true
+checkValue(value:33);//retournera false
