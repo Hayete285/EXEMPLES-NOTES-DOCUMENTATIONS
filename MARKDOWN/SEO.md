@@ -1,6 +1,7 @@
 #SEO(Search Enging Optimisation) par google
 ===========================================
-![Opengraph](OpenGraph.png)
+![Alt text](image.png)
+
 ##Référencement Naturel gratuit
 -------------------------------
 
