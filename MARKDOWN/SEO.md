@@ -19,6 +19,6 @@
        - méta name="description" content="", dans le head faire une phrace ultra précise(texte qui apparait sous le titre pour 
          expliquer le contenu).
        - opengraph sert à être plus visible sur les réseaux.(méta property="" content="") Il peut y en avoir plusieurs. 
-       ![OpenGraph](image.png"OpenGraph")
+       ![OpenGraph](OpenGraph.png)
 
 3 - Site rapide (performant)
