@@ -36,4 +36,4 @@
         - mettre des mots en balise 'strong' et où 'em'
         - alt pertinent et bien détaillés
         - l'image doit être optimisé dans sa taille et son format(ex. ne doit pas dépasser de son contenat)
-        - robots.txt [chemin d'accès vers](./robots.txt)
+        - robots.txt [documentation](./robots.txt)
