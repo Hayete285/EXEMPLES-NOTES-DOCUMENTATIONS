@@ -21,24 +21,32 @@ vous serez deux fois meilleurs.
 Lister 5 à 7 facteurs de bonheur et les surveillés!
 
 N.1 = relations(familles, amis)-----------------------------------------3 
+
       1.Elever Mehdi
       2.sortir plus souvent avec mes amis
       3.inscrire Mehdi dans différentes activités pour avoir plus de temps à moi
 N.2 = santé-------------------------------------------------------------4
+
       1.perdre du poids
       2.me défouler autrement que sur la nourriture
       3.aller à la piscine au moins une fois/semaine
       4.faire de la randonnée
       5.apprendre à faire du vélo
+
 N.3 = finances----------------------------------------------------------4
+
       1.gagner plus d'argent
       2.épargner 20% de l'argent gagné
+
 N.4 = apprentissage-----------------------------------------------------4
+
       1.trouver une alternance
       2.passer mon diplôme
       3.trouver un travail pour gagner en expérience et en assurance
       4.maîtriser Python
+
 N.5 = état de ma maison(bricololage, peinture, meuble, electro-ménager)-2
+
       1.finir les retouches
       2.enduir mur couloir
       3.réparer mur couloir
@@ -55,11 +63,15 @@ N.5 = état de ma maison(bricololage, peinture, meuble, electro-ménager)-2
       13.repeindre les chaises
       14.repeindre la tables et ses rallonges
       15.repeindre le meuble de la salle où en acheter un neuf
+
 N.6 = recherche d'alternance--------------------------------------------1
+
       1.trouver alternance dans le domaine qui me plait éventuellement
       2.augmenter mes connaissances
       3.me faire de nouvelles relations de travail
+
 N.7 = suivi scolaire et personnel Mehdi---------------------------------2
+
       1.remettre en place le sessad
       2.lui enlever le platre
       3.lui apprendre à préparer son petit-déjeuner
