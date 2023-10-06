@@ -16,8 +16,9 @@
 
        - Changez la langue dans le head 'en' en 'fr' par exemple.
        - la balise title du head supporte jusqu'à 70 caractères, plus c'est précis et bien détaillés, mieux sera le référencement.
-       - méta name="description" content="", dans le head faire une phrace ultra précise(texte qui apparait sous le titre pour expliquer le contenu).
+       - méta name="description" content="", dans le head faire une phrace ultra précise(texte qui apparait sous le titre pour 
+         expliquer le contenu).
        - opengraph sert à être plus visible sur les réseaux.(méta property="" content="") Il peut y en avoir plusieurs. 
-       ![OpenGraph](OpenGraph.png)
-       
+       ![OpenGraph](C:\Users\totos\Pictures\Saved Pictures\OpenGraph.png)
+
 3 - Site rapide (performant)
