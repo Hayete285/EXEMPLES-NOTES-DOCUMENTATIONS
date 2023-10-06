@@ -1,7 +1,7 @@
 #APPRENDRE A APPRENDRE
 =====================
 
-![résuméApprenant](r%C3%A9sum%C3%A9Apprenant.png))
+![résuméApprenant](r%C3%A9sum%C3%A9Apprenant.png)
 
 1)La méthode des lokis
 ----------------------

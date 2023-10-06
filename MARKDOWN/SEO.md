@@ -16,5 +16,5 @@
        - la balise title du head supporte jusqu'à 70 caractères, plus c'est précis et bien détaillés, mieux sera le référencement.
        - méta name="description" content="", dans le head faire une phrace ultra précise(texte qui apparait sous le titre pour expliquer le contenu).
        - opengraph sert à être plus visible sur les réseaux.(méta property="" content="") Il peut y en avoir plusieurs. 
-       ![OpenGraph](C:\Users\totos\Pictures\Saved Pictures/OpenGraph.png)
+       ![OpenGraph](OpenGraph.png)
 3 - Site rapide (performant)
