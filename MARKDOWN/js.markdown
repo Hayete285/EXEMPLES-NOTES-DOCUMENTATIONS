@@ -1,6 +1,8 @@
 #JAVASCRIPT
 ==============
 
+![Définition JS](DéfinitionJS.png)
+
 ##Déclarer une variable :
 ----------------------
 

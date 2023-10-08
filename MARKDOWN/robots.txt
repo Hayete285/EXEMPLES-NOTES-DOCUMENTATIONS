@@ -1,3 +1,7 @@
 On peut communiquer avec google via cette page. 
 
 On peut lui demander de ne pas référencer certaines pages de notre site par exemple.
+
+Exemple: 
+        User-agent: *
+        disaflow: page-a.html (si l'on a créer bien sûr une page-a.html)

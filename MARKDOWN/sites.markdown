@@ -114,6 +114,8 @@ CSS Gradient : https://cssgradient.io/
 
 Can I use.. https://caniuse.com/
 
+https://robot.txt.manuel d'exploitation.com
+
 https://www3schools
 
 https://css-tricks.com

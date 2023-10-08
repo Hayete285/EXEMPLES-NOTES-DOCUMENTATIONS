@@ -36,4 +36,14 @@
         - mettre des mots en balise 'strong' et où 'em'
         - alt pertinent et bien détaillés
         - l'image doit être optimisé dans sa taille et son format(ex. ne doit pas dépasser de son contenat)
-        - robots.txt 
+        - robots.txt (Manuel d'inplémentation) 
+        Exemple: 
+        User-agent: *
+        disaflow: page-a.html (si l'on a créer bien sûr une page-a.html)
+       - Le robot test le temps de chargement.
+       - Il faut que le script de JS soit lu en dernier.
+       - il faut faire apparaître le plus vite possible une couleur de fond. Sinon l'utilisateur va s'impatientai, le temps que la page charge.
+       - privilégier les images depuis le css et non pas de la balise img
+       - tester son seo: plugin lighthouse
+       télécharger, rafraichir où redemarrer chrome et cliquez droit sur l'inspecteur(console)
+       lightouse se trouve sur la barre du haut, choisir seo pour savoir ce qu'il y a à améliorer.
