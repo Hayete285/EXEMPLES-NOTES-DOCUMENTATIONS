@@ -1,7 +1,7 @@
 #JAVASCRIPT
 ==============
 
-![Définition JS](DéfinitionJS.png)
+![Définition JS](C:\Users\totos\Pictures\Saved Pictures)
 
 ##Déclarer une variable :
 ----------------------
