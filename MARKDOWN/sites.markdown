@@ -86,7 +86,7 @@ https://thecacatoestheory.slack.com/join/shared_invite/zt-1lpavo5ra-kQYaFAIbXdry
 application de messagerie
 
 https://www.youtube.com/@BastiUi
-ronan 
+ronan
 
 https://www.amazon.fr/Guide-Design-Thinking-Activez-m%C3%A9thode/dp/2744067172
 livre sur le design
@@ -129,3 +129,17 @@ https://specificity-calculatoe
 
 https://CLEANS.COM
 pour minifier le code
+
+https://ColorPick Eyedropper
+sert à récupérer la couleur réel
+
+https://Ruler Measurement
+sert à mesurer les tailles réelles
+
+https://What Font
+fonts
+
+https://wappalyzer
+
+clear cache
+pour nettoyer tout ce qui est en cache sur vsc

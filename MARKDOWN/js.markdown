@@ -1,43 +1,32 @@
-#JAVASCRIPT
-==============
+# #JAVASCRIPT
 
-![Définition JS](C:\Users\totos\Pictures\Saved Pictures)
+## ##Déclarer une variable :
 
-##Déclarer une variable :
-----------------------
+## ####var, let où const
 
-####var, let où const
----------------------
-
-String :
---------
+## String :
 
 var nom = 'Hayete';
 
-Number :
---------
+## Number :
 
 var number = 23;
 
-Déclarer un objet =
--------------------
+## Déclarer un objet =
 
 var ob = {};
 
-Déclarer un tableau :
----------------------
+## Déclarer un tableau :
 
 var fruits = ['pomme', 'poire', 'bananne', 'cerise']
 var annonce = 'bonjour il y a des ' + fruits[0] + 's dans le rayon fruit'
 
-Obtenir l'affichage :
----------------------
+## Obtenir l'affichage :
 
 console.log(fruits[0],fruits[2])
 console.log(annonce)
 
-Chercher par l'index :
----------------------
+## Chercher par l'index :
 
 exemple:
 var fruits = ['pomme', 'poire', 'bananne']
@@ -51,53 +40,44 @@ bonjour il y a des pommes dans le rayon fruit
 pomme
 bananne
 
-Rechercher par l'indexOf() :
----------------------------
+## Rechercher par l'indexOf() :
 
 var indexElement = fruits.indexOf('banane'); // Trouve l'index de "banane"
 
-Remplacement d'un élèment :
----------------------------
+## Remplacement d'un élèment :
 
 fruits[1] = 'fraise';
 console.log(fruits);//on obtient ainsi Fraise
 
-Longueur de la liste :
-----------------------
+## Longueur de la liste :
 
 console.log(fruits.length);
 
-Booléan :
---------
+## Booléan :
 
 var estetudiant = ('true');
 console.log(estetudiant);
 
-Inversion :
------------
+## Inversion :
 
 var estetudiant = !('true');
 console.log(estetudiant);
 
-Clé/Valeurs :
--------------
+## Clé/Valeurs :
 
 var couleurs = { Ciel: "Bleu", Feu: "Rouge", Foret: "Vert" };
 console.log(couleurs);
 
-Accèder aux valeurs :
----------------------
+## Accèder aux valeurs :
 
 console.log(couleurs.Ciel);//le "." est utilisé pour appeller
 
-Modification :
---------------
+## Modification :
 
 couleurs.Feu = 'Orange';
 console.log(couleurs.Feu);
 
-Afficher plusieurs variables :
------------------------------
+## Afficher plusieurs variables :
 
 var un = 'Je';
 var deux = 'suis';
@@ -105,27 +85,24 @@ var trois = 'fatiguée.'
 var quatre = (un + ' ' + deux + ' ' + trois);
 console.log(quatre);
 
-Déterminé type de variable :
-----------------------------
+## Déterminé quel type de variable :
 
 console.log(typeof age);
 
-calcul en pourcentage :
------------------------
+## calcul en pourcentage :
 
 //Méthode de Darine
 var prixarticle = 25;
 var remise = 20;
-console.log(prixarticle * (1 - remise / 100));
+console.log(prixarticle \* (1 - remise / 100));
 
 var prixArticle = 100;
 var remise = 25;
-var montantRemise = (prixArticle * remise) / 100;
+var montantRemise = (prixArticle \* remise) / 100;
 var prixApresRemise = prixArticle - montantRemise;
 console.log(prixApresRemise);
 
-Concaténer avec des variables :
--------------------------------
+## Concaténer avec des variables :
 
 var cinq = "J'ai";
 var six = 35;
@@ -135,13 +112,12 @@ var neuf = "40 cents."
 var newTexte = (cinq + ' ' + six + ' ' + sept + ' ' + huit + ' ' + neuf);
 console.log(newTexte);
 
-//Méthode d'Eddine 
+//Méthode d'Eddine
 var liste = ["J'ai", 35, "dollars", "et", "40 cents."];
 var newliste = ''.concat(...liste);
 console.log(newliste);
 
-Variable conditionnelle :
--------------------------
+## Variable conditionnelle :
 
 //Déclarez une variable jour et assignez-lui un jour de la semaine ("Lundi", "Mardi", etc.).
 //Affichez un message dans la console en fonction du jour(par exemple, "Bon lundi !" si le jour est "Lundi").
@@ -149,21 +125,21 @@ Variable conditionnelle :
 
 var jour = "Lundi";
 if (jour === "Lundi") {
-    console.log("Bon lundi !");
+console.log("Bon lundi !");
 } else if (jour === "Mardi") {
-    console.log("Bon mardi !");
+console.log("Bon mardi !");
 } else if (jour === "Mercredi") {
-    console.log("Bon mercredi !");
+console.log("Bon mercredi !");
 } else if (jour === "Jeudi") {
-    console.log("Bon jeudi !");
+console.log("Bon jeudi !");
 } else if (jour === "Vendredi") {
-    console.log("Bon vendredi !");
+console.log("Bon vendredi !");
 } else if (jour === "Samedi") {
-    console.log("Bon samedi !");
+console.log("Bon samedi !");
 } else if (jour === "Dimanche") {
-    console.log("Bon dimanche !");
+console.log("Bon dimanche !");
 } else {
-    console.log("Jour non valide.");
+console.log("Jour non valide.");
 }
 
 //Dans cet exercice, j'ai déclaré la variable jour et je lui ai attribué la valeur "Lundi".
@@ -172,11 +148,10 @@ if (jour === "Lundi") {
 //sera affiché.Il est possible adapter ce code en changeant la valeur de la variable jour
 //pour afficher un message différent en fonction du jour qu'on souhaite.
 
-Conversion : 
------------
+## split :
 
 //Pour convertir une chaîne de caractères en une liste de mots en JavaScript,
-//on peut utiliser la méthode split().Cette méthode découpe la chaîne en fonction 
+//on peut utiliser la méthode split().Cette méthode découpe la chaîne en fonction
 //d'un délimiteur (par exemple, un espace) et renvoie un tableau contenant les mots individuels. Voici comment faire :
 
 var chaineDeCaracteres = "Ceci est une phrase à convertir en liste de mots";
@@ -187,8 +162,7 @@ console.log(listeDeMots);
 //Nous utilisons la méthode split(" ") pour diviser la chaîne à chaque espace,
 //créant ainsi un tableau listeDeMots contenant les mots individuels.
 
-joint :
--------
+## joint :
 
 var listeDeMots = ["Bonjour", "à", "tous", "les", "développeurs", "web."];
 var chaineResultat = listeDeMots.join(" ");
@@ -198,8 +172,7 @@ console.log(chaineResultat);
 //pour les fusionner en une seule chaîne en les séparant par des espaces.
 //On peut remplacer l'espace " " dans join() par n'importe quel caractère qu'on souhaite utiliser comme séparateur entre les mots.
 
-Accéder aux listes :
--------------------
+## Accéder aux listes :
 
 //Énoncé: Affichez les deux premiers et les deux derniers éléments d'une liste.
 //Contrainte: Utilisez l'indexation pour accéder aux éléments.
@@ -214,10 +187,9 @@ var deuxDerniers = [listeBis[listeBis.length - 2], listeBis[listeBis.length - 1]
 console.log("Les deux premiers éléments : " + deuxPremiers);
 console.log("Les deux derniers éléments : " + deuxDerniers);
 
-Somme des listes :
------------------
+## Somme des listes :
 
-//Pour calculer la somme des éléments d'une liste en JavaScript, nous pouvons utiliser une boucle 
+//Pour calculer la somme des éléments d'une liste en JavaScript, nous pouvons utiliser une boucle
 //for pour parcourir la liste et accumuler la somme.
 // Liste d'éléments
 var maNewListe = [1, 2, 3, 4, 5];
@@ -227,7 +199,7 @@ var somme = 0;
 
 // Parcourir la liste et accumuler la somme
 for (let i = 0; i < maNewListe.length; i++) {
-    somme += maNewListe[i];
+somme += maNewListe[i];
 }
 
 // Afficher la somme
@@ -236,9 +208,7 @@ console.log("La somme des éléments de la liste est : " + somme);
 //puis utilise une boucle for pour parcourir la liste maListe
 //et ajoute chaque élément à la somme.Enfin, il affiche la somme totale.
 
-
-Mélange de type de données :
---------------------------
+## Mélange de type de données :
 
 //En JavaScript, il existe plusieurs types de données, notamment :
 
@@ -246,47 +216,45 @@ Mélange de type de données :
 
 //2-String (Chaîne de caractères) : Il représente du texte encadré par des guillemets simples (') ou doubles ("). Par exemple, "Bonjour", 'JavaScript'.
 
-//3-Boolean (Booléen) : Il représente une valeur binaire, soit true (vrai) ou false (faux). 
+//3-Boolean (Booléen) : Il représente une valeur binaire, soit true (vrai) ou false (faux).
 //Il est couramment utilisé pour les conditions.Par exemple, true, false.
 
-//4-Array (Tableau) : Il représente une collection ordonnée d'éléments, qui peuvent être de différents types. 
+//4-Array (Tableau) : Il représente une collection ordonnée d'éléments, qui peuvent être de différents types.
 //Les éléments d'un tableau sont accessibles par leur index. Par exemple, [1, 2, 3], ['a', 'b', 'c'].
 
 //5-Object (Objet) : Il représente une collection non ordonnée de paires clé-valeur. L
 //es propriétés d'un objet sont accessibles par leur nom de clé. Par exemple, { nom: 'John', age: 30 }.
 
-//6-Undefined (Non défini) : Il représente une variable ou une valeur qui n'a pas été initialisée. 
+//6-Undefined (Non défini) : Il représente une variable ou une valeur qui n'a pas été initialisée.
 //En général, une variable est automatiquement initialisée à undefined si aucune valeur n'est attribuée.
 
 //7-Null (Nul) : Il représente l'absence intentionnelle de valeur ou une valeur nulle.
 
-//8-Symbol (Symbole) : Il représente une valeur unique qui peut être utilisée comme clé d'objet. 
+//8-Symbol (Symbole) : Il représente une valeur unique qui peut être utilisée comme clé d'objet.
 //Il est principalement utilisé dans le contexte des propriétés d'objet.
 
-//9-Function (Fonction) : En JavaScript, les fonctions sont également considérées comme des types de données. 
+//9-Function (Fonction) : En JavaScript, les fonctions sont également considérées comme des types de données.
 //Elles peuvent être définies et utilisées pour effectuer des actions ou des calculs spécifiques.
 
 //10-Date (Date) : Il représente une date et une heure spécifiques.
 
 //11-RegExp (Expression régulière) : Il représente une expression régulière utilisée pour la recherche et la manipulation de chaînes de caractères.
 
-//12-Map (Mappe) et Set (Ensemble) : Ce sont des structures de données introduites dans ECMAScript 6 (ES6) 
+//12-Map (Mappe) et Set (Ensemble) : Ce sont des structures de données introduites dans ECMAScript 6 (ES6)
 //pour stocker des collections de données.Map associe des clés à des valeurs, tandis que Set stocke des valeurs uniques.
 
-//Ces différents types de données permettent de représenter et de manipuler diverses informations dans JavaScript, 
+//Ces différents types de données permettent de représenter et de manipuler diverses informations dans JavaScript,
 //ce qui en fait un langage très flexible et puissant.
 var premier = ("Rien à ajouter", 55, [1, 2, 3]);
 
+## Retrait d'élment spécifique d'une liste splice:
 
-Retrait d'élment d'une liste splice:
-------------------------------------
-
-//Pour retirer un élément spécifique d'une liste en JavaScript en utilisant une méthode de liste, 
+//Pour retirer un élément spécifique d'une liste en JavaScript en utilisant une méthode de liste,
 //vous pouvez utiliser la méthode splice().Voici comment retirer un élément spécifique, par exemple, "banane", de la liste fruits:
 
 var indexElementARetirer = fruits.indexOf('banane'); // Trouve l'index de "banane"
 if (indexElementARetirer !== -1) {
-    fruits.splice(indexElementARetirer, 1); // Retire 1 élément à l'index trouvé
+fruits.splice(indexElementARetirer, 1); // Retire 1 élément à l'index trouvé
 }
 
 console.log(fruits); // La liste de fruits sans "banane"
@@ -295,8 +263,14 @@ console.log(fruits); // La liste de fruits sans "banane"
 
 //Après l'exécution de ce code, la liste fruits ne contiendra plus l'élément "banane".
 
-//Pour retirer un élément d'une liste en JavaScript, vous pouvez utiliser la méthode pop() 
-//pour supprimer le dernier élément de la liste ou la méthode shift() 
+## Retrait avec pop:
+
+//Pour retirer un élément d'une liste en JavaScript, vous pouvez utiliser la méthode pop()
+
+## Supprimer du dernier élèment avec shift
+
+//pour supprimer le dernier élément de la liste ou la méthode shift()
+
 //pour supprimer le premier élément de la liste.Voici comment vous pouvez faire cela:
 
 // Utilisation de pop() pour retirer le dernier élément
@@ -308,34 +282,28 @@ fruits.shift();
 console.log(fruits); // La liste de fruits sans le premier élément
 //Choisissez la méthode qui correspond à l'élément que vous souhaitez retirer (dernier?premier, où n'importe où) en fonction de votre besoin.
 
-
 //Pour retirer un élément spécifique d'une liste en JavaScript en utilisant une méthode de liste,
 //vous pouvez utiliser la méthode splice().Voici comment retirer un élément spécifique, par exemple, "banane", de la liste fruits:
 
+## Nombre aléatoire random :
 
-Nombre aléatoire random :
-------------------------
-
-//Pour générer un nombre aléatoire en JavaScript en respectant la contrainte d'utiliser une fonction mathématique native, 
+//Pour générer un nombre aléatoire en JavaScript en respectant la contrainte d'utiliser une fonction mathématique native,
 //vous pouvez utiliser la fonction Math.random().Voici comment vous pouvez le faire:
-
 
 // Utilisation de Math.random() pour générer un nombre aléatoire entre 0 (inclus) et 1 (exclus)
 let nombreAleatoire = Math.random();
 console.log(nombreAleatoire); // Affiche le nombre aléatoire généré
-//La fonction Math.random() génère un nombre décimal aléatoire compris entre 0 (inclus) et 1 (exclus). 
-//Si vous souhaitez obtenir un nombre aléatoire dans une plage différente, 
-//vous pouvez utiliser des opérations mathématiques pour ajuster la plage et le type de nombre (entier ou décimal) 
+//La fonction Math.random() génère un nombre décimal aléatoire compris entre 0 (inclus) et 1 (exclus).
+//Si vous souhaitez obtenir un nombre aléatoire dans une plage différente,
+//vous pouvez utiliser des opérations mathématiques pour ajuster la plage et le type de nombre (entier ou décimal)
 //selon vos besoins.Par exemple, pour obtenir un nombre entier aléatoire entre 1 et 100, vous pouvez faire ceci:
 
-
-let nombreAleatoireEntier = Math.floor(Math.random() * 100) + 1;
+let nombreAleatoireEntier = Math.floor(Math.random() \* 100) + 1;
 console.log(nombreAleatoireEntier); // Affiche un nombre entier aléatoire entre 1 et 100
 //Ici, Math.floor() est utilisé pour arrondir le résultat à un nombre entier,
-//et nous ajoutons 1 pour obtenir une plage de 1 à 100. Vous pouvez ajuster ces valeurs en fonction de vos besoins spécifiques.
+//et nous ajoutons 1 pour obtenir une plage de 1 à 100. On peut ajuster ces valeurs en fonction de nos besoins spécifiques.
 
-Arrondir avec math.round:
--------------------------
+## Arrondir avec math.round:
 
 // Nombre à virgule
 let nombreAVirgule = 5.67;
@@ -351,11 +319,10 @@ console.log(entierArrondi); // Affiche l'entier arrondi le plus proche
 //Dans l'exemple ci-dessus, si nombreAVirgule est de 5.67, alors entierArrondi sera de 6,
 //car 5.67 est plus proche de 6 que de 5. Si nombreAVirgule était de 5.34, alors entierArrondi serait de 5.
 
-Conversion de type parsFloat/parseInt:
--------------------------------------
+## Conversion de type parsFloat/parseInt:
 
-//Pour convertir une chaîne de caractères en nombre en utilisant une fonction native de JavaScript, 
-//vous pouvez utiliser la fonction parseFloat() pour obtenir un nombre à virgule flottante ou la fonction parseInt() 
+//Pour convertir une chaîne de caractères en nombre en utilisant une fonction native de JavaScript,
+//vous pouvez utiliser la fonction parseFloat() pour obtenir un nombre à virgule flottante ou la fonction parseInt()
 //pour obtenir un nombre entier.Voici comment vous pouvez faire cela:
 
 //Convertir en nombre à virgule flottante en utilisant parseFloat() :
@@ -378,10 +345,9 @@ console.log(machinBis); // Affiche le nombre entier
 //tandis que parseInt() renvoie un nombre entier.
 //Si la chaîne de caractères ne peut pas être convertie en nombre, elles renvoient NaN(Not - a - Number).
 
-Créer chaine multi-lignes :
---------------------------
+## Créer chaine multi-lignes :
 
-//Pour créer une chaîne de caractères sur plusieurs lignes en JavaScript, 
+//Pour créer une chaîne de caractères sur plusieurs lignes en JavaScript,
 //vous pouvez utiliser la syntaxe des gabarits de chaînes (template literals) avec des backticks ( ). Voici un exemple :
 
 // Utilisation des gabarits de chaînes pour créer une chaîne sur plusieurs lignes
@@ -396,14 +362,11 @@ console.log(chaineMultiligne);
 //dans la chaîne sans avoir à utiliser des caractères d'échappement.
 //Cela rend la création de chaînes sur plusieurs lignes beaucoup plus lisible et pratique.
 
-Ajouter objet dans une liste préexistante avec push :
-----------------------------------------------------
+## Ajouter objet dans une liste préexistante avec push :
 
-
-//Pour ajouter un dictionnaire (objet) comme élément à une liste en JavaScript, 
-//vous pouvez simplement utiliser la méthode push().Assurez - vous que votre liste contient déjà au moins deux éléments 
+//Pour ajouter un dictionnaire (objet) comme élément à une liste en JavaScript,
+//vous pouvez simplement utiliser la méthode push().Assurez - vous que votre liste contient déjà au moins deux éléments
 //de types différents, puis ajoutez le dictionnaire comme suit:
-
 
 // Liste initiale avec deux éléments de types différents
 let maListe = [1, 'Bonjour'];
@@ -419,18 +382,16 @@ console.log(maListe); // La liste avec le dictionnaire ajouté
 //Ensuite, nous ajoutons un dictionnaire monDictionnaire à cette liste en utilisant la méthode push().
 //Après l'exécution de ce code, maListe contiendra trois éléments, dont le dernier sera le dictionnaire.
 
-Ajouter liste valeur :
----------------------
+## Ajouter liste valeur :
 
-//Pour ajouter une liste comme valeur dans un dictionnaire (objet) en JavaScript, 
-//vous pouvez simplement attribuer cette liste à une nouvelle clé dans le dictionnaire.Assurez - 
+//Pour ajouter une liste comme valeur dans un dictionnaire (objet) en JavaScript,
+//vous pouvez simplement attribuer cette liste à une nouvelle clé dans le dictionnaire.Assurez -
 //vous que votre dictionnaire contient déjà au moins deux autres paires clé - valeur, puis ajoutez la nouvelle paire clé - valeur comme suit:
-
 
 // Dictionnaire initial avec deux paires clé-valeur
 let newDictionnaire = {
-    nom: 'John',
-    age: 30
+nom: 'John',
+age: 30
 };
 
 // Liste à ajouter comme valeur dans le dictionnaire
@@ -444,15 +405,13 @@ console.log(newDictionnaire); // Le dictionnaire avec la liste ajoutée
 //(nom et age). Nous ajoutons ensuite une nouvelle paire clé - valeur en attribuant la liste maListe
 //à la clé maListe du dictionnaire.Après l'exécution de ce code, monDictionnaire contiendra trois paires clé-valeur, la dernière étant la liste.
 
-Taille d'une chaine :
---------------------
+## Taille d'une chaine :
 
 //Énoncé: Déterminez la longueur d'une chaîne de caractères.
 //Contrainte: Utilisez une propriété de chaîne de caractères pour cela.
 
-//Pour déterminer la longueur (le nombre de caractères) d'une chaîne de caractères en JavaScript, 
+//Pour déterminer la longueur (le nombre de caractères) d'une chaîne de caractères en JavaScript,
 //vous pouvez utiliser la propriété length de la chaîne.Voici comment faire cela:
-
 
 // Chaîne de caractères
 let oldChaine = "Bonjour, c'est un exemple.";
@@ -464,12 +423,10 @@ console.log("La longueur de la chaîne est : " + longueur);
 //La propriété length renvoie le nombre de caractères dans la chaîne, y compris les espaces et les caractères spéciaux.
 //Dans cet exemple, longueur contiendra la longueur de la chaîne maChaine, et cela sera affiché dans la console.
 
-Majuscules et Minuscules toUpperCase | toLowerCase :
----------------------------------------------------
+## Majuscules et Minuscules toUpperCase | toLowerCase :
 
-//Pour convertir une chaîne de caractères en majuscules et ensuite en minuscules en utilisant des méthodes de chaîne de caractères en JavaScript, 
+//Pour convertir une chaîne de caractères en majuscules et ensuite en minuscules en utilisant des méthodes de chaîne de caractères en JavaScript,
 //vous pouvez utiliser les méthodes toUpperCase() pour la conversion en majuscules et toLowerCase() pour la conversion en minuscules.Voici comment faire:
-
 
 // Chaîne de caractères
 let Chaine = "Exemple de Conversion";
@@ -486,12 +443,10 @@ console.log("En minuscules : " + enMinuscules);
 //pour convertir la chaîne en minuscules.Les résultats sont stockés dans les variables enMajuscules et enMinuscules,
 //respectivement, puis affichés dans la console.
 
-Remplacement dans une chaine replace :
--------------------------------------
+## Remplacement dans une chaine replace :
 
 //Pour remplacer un mot dans une chaîne de caractères en utilisant une méthode de chaîne de caractères en JavaScript,
 // vous pouvez utiliser la méthode replace().Voici comment vous pouvez le faire:
-
 
 // Chaîne de caractères
 let maChaine = "Le chat est mignon. Le chat est joueur.";
@@ -514,12 +469,10 @@ console.log(nouvelleChaine);
 //utilisez une expression régulière avec le drapeau g comme ceci: maChaine.replace(/chat/g, "chien");.
 //g pour général où global?
 
-Extraire des élèments de chaîne :
---------------------------------
+## Extraire des élèments de chaîne :
 
-//Pour afficher les 5 premiers caractères et les 5 derniers caractères d'une chaîne de caractères en JavaScript 
+//Pour afficher les 5 premiers caractères et les 5 derniers caractères d'une chaîne de caractères en JavaScript
 //en utilisant des méthodes ou des propriétés de chaîne, vous pouvez faire ce qui suit:
-
 
 // Chaîne de caractères
 let maPhrase = "Exemple de chaîne de caractères à manipuler";
@@ -537,14 +490,11 @@ console.log("Les 5 derniers caractères : " + derniersCaracteres);
 //les 5 derniers caractères de la chaîne.Les résultats sont stockés dans les variables premiersCaracteres et derniersCaracteres,
 //respectivement, puis affichés dans la console.
 
+## Opération en chaine parseFloat | parseInt :
 
-Opération en chaine parseFloat | parseInt :
------------------------------------------
-
-//Pour effectuer une opération arithmétique avec deux nombres stockés sous forme de chaînes en JavaScript, 
-//vous devez d'abord les convertir en nombres. Vous pouvez utiliser la fonction parseFloat() ou parseInt() 
+//Pour effectuer une opération arithmétique avec deux nombres stockés sous forme de chaînes en JavaScript,
+//vous devez d'abord les convertir en nombres. Vous pouvez utiliser la fonction parseFloat() ou parseInt()
 //pour cela, en fonction de vos besoins(décimal ou entier).Voici un exemple avec parseFloat() pour effectuer une addition:
-
 
 // Nombres stockés sous forme de chaînes
 let nombre1 = "5.5";
@@ -565,10 +515,6 @@ console.log("Résultat de l'addition : " + resultat);
 //Vous pouvez également utiliser parseInt() si vous souhaitez effectuer des opérations avec des nombres entiers
 //en convertissant les chaînes en nombres entiers.
 
-
-
-
-
 <script src="src/script.js"></script>//pour ajouter un script JavaScript juste avant la fermante de body//
 
 var nom = ['BENS']
@@ -584,18 +530,17 @@ console.log(age + age1)
 BENS Hayete
 54
 59
----------------------------------------------
-|côté serveur : node.js où tri.js pour la 3D|
----------------------------------------------
+
+---
+
+## |côté serveur : node.js où tri.js pour la 3D|
 
 -Une ligne de code est une instruction et le point virgule permet de dire à l'instructeur que l'instruction est terminée
 et qu'il peut passer à l'instruction suivante.
 -Un bloc d'instruction est limité par une accolade ouvrante et une fermante.
--L'eensemble entre ce bloc d'accolade font partie d'une instruction.
+-L'ensemble entre ce bloc d'accolade font partie d'une instruction.
 
-
-###Déclarer une variable (c'est donner une valeur)
-------------------------
+## ###Déclarer une variable (c'est donner une valeur)
 
 -Une variable est une case mémoire.
 
@@ -608,30 +553,21 @@ let marque; //ici elle est indefined//
 const myconst= 3; //elle sera toujours 3 quoiqu'il arrive//
 let pricetwo = 23.
 
-price * pricetwo / myconst;
+price \* pricetwo / myconst;
 
-ATTENTION : ON NE PEUT PAS DONNER DEUX FOIS LE MEME NOM A UNE VARIABLE.
------------------------------------------------------------------------
+## ATTENTION : ON NE PEUT PAS DONNER DEUX FOIS LE MEME NOM A UNE VARIABLE.
 
-DE MEME QU'ON NE PEUT PAS COMMENCER PAR UN CHIFFRE AU MILIEU OU A LA FIN C'EST POSSIBLE.
----------------------------------------------------------------------------------------
+## DE MEME QU'ON NE PEUT PAS COMMENCER PAR UN CHIFFRE AU MILIEU OU A LA FIN C'EST POSSIBLE.
 
-IL VAUT ECRIRE LES VARIABLES EN ANGLAIS.
----------------------------------------
+## IL VAUT ECRIRE LES VARIABLES EN ANGLAIS.
 
-EVITER D'AVOIR DES NOMS DE VARIABLES TROP LONG, ILS DOIVENT ETRE INTUITIFS ET DECRIRE CE QU'ILS CONTIENNENT.
-------------------------------------------------------------------------------------------------------------
+## EVITER D'AVOIR DES NOMS DE VARIABLES TROP LONG, ILS DOIVENT ETRE INTUITIFS ET DECRIRE CE QU'ILS CONTIENNENT.
 
-ATTENTION A LA CASSE; JS EST SENSIBLE A LA CASSE! Utilisez le camelcase.
-------------------------------------------------------------------------
+## ATTENTION A LA CASSE; JS EST SENSIBLE A LA CASSE! Utilisez le camelcase.
 
-NE PAS UTILISEZ LES MOTS CLES DE JS POUR NOMMER LES VARIABLES.
--------------------------------------------------------------
+## NE PAS UTILISEZ LES MOTS CLES DE JS POUR NOMMER LES VARIABLES.
 
-
-
-##FONCTION
-----------
+## ##FONCTION
 
 Une fonction est une instruction effectuant une tâche où calculant une valeur, une fonction peut retourner des données où non.
 Pour utiliser une fonction, il est nécessaire de l'avoir défini et déclarer pour pouvoir l'utiliser.
@@ -639,11 +575,10 @@ Pour utiliser une fonction, il est nécessaire de l'avoir défini et déclarer p
 Entre les parenthèses nous y assignerons un où des arguments pour que la fonction puisse fonctionner correctement, mais cela n'est pas obligatoire.
 Ces variables ne seront pas accessibles en dehors de cette fonction.
 
-
 ``Javascript
 function multiplyBy(nb, nb2){
-    //instructions
-    return//dans le cas où l'on voudrait obtenir une réponse(ce qui n'est pas toujours obligatoire) le résultat, console.log, bouléan, etc...//
+//instructions
+return//dans le cas où l'on voudrait obtenir une réponse(ce qui n'est pas toujours obligatoire) le résultat, console.log, bouléan, etc...//
 }
 multiplyBy()
 Le fait d'ouvrir des parenthèses cela s'appelle 'invoquer'.
@@ -651,19 +586,18 @@ Entre les parenthèse les données sont appellées 'paramétres'.
 
 mutiplyBy(nb,nb2);
 
-Pour le stocker dans une variable : 
+Pour le stocker dans une variable :
 let produit = multiplyBy(nb:23, nb2:9);
 Pour l'afficher :
 console.log('produit:', produit);
 
 Nous pouvons obtenir plusieurs résultats dans le même console.log :
-console.log(mutiplyBy(nb:48, nb2:59),mutplyBy(nb:21, nb2:14)multiplyBy(nb:12, nb2:25)); 
+console.log(mutiplyBy(nb:48, nb2:59),mutplyBy(nb:21, nb2:14)multiplyBy(nb:12, nb2:25));
 
-Exemple:
--------
+## Exemple:
 
 function multiplyBy(nb3, nb4){
-    consolelog('produit:'nb3 * nb4)
+consolelog('produit:'nb3 \* nb4)
 }
 multiplyBy(nb3:1, nb4:6);
 multiplyBy(nb3:2, nb4:7);
@@ -671,11 +605,10 @@ multiplyBy(nb3:3, nb4:8);
 multiplyBy(nb3:4, nb4:9);
 multiplyBy(nb3:5, nb4:10);
 
-
 Pour vérifier une valeur:
 
 function checkValue(value){
-   console.log(value === 30);
+console.log(value === 30);
 }
 checkValue(value:30);//retournera true
 checkValue(value:33);//retournera false
