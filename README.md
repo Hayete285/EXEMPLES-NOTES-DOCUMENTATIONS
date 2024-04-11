@@ -1,9 +1,11 @@
 # EXEMPLES-NOTES-DOCUMENTATIONS
 
-[COURS](#MARKDOWN)
+[COURS](#COURS)
 
-[EXERCICES](#nomdelancre)
+[EXERCICES](#EXERCICES)
 
-[IMAGES](#nomdelancre)
+[IMAGES](#IMAGES)
+
+[DIVERS](#DIVERS)
 
 ![Alt text](binary-code-475664_1280.jpg)
