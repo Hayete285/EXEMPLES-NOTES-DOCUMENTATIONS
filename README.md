@@ -2,8 +2,8 @@
 
 [COURS](#MARKDOWN)
 
-[Mon ancre qui renvoie vers les listes](#nomdelancre)
+[EXERCICES](#nomdelancre)
 
-[Mon ancre qui renvoie vers les listes](#nomdelancre)
+[IMAGES](#nomdelancre)
 
 ![Alt text](binary-code-475664_1280.jpg)
