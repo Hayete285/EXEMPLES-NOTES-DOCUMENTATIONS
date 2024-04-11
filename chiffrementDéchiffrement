@@ -3,9 +3,8 @@
 ###Méthode César(décalement de l'alphabet, 25 ossibilitées)
 Créer en 1976, breveté, et tombé dans le domaine publique depuis.
 
-![Chiffrement](MARKDOWN/IMAGES:Chiffrement.png)
+![Chiffrement](Chiffrement.png)
 
-![](C:\Users\totos\Documents\EXEMPLES-NOTES-DOCUMENTATIONS\EXEMPLES-NOTES-DOCUMENTATIONS\MARKDOWN\IMAGES\Chiffrement.png)
 ###SUBSTITUTION (tableau de conversion)
 
 Méthode qui consiste à remplacé avec une autre au hasard.
