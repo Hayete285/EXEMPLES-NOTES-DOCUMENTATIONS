@@ -1,3 +1,11 @@
 ## #CHIFFREMENT/DECHIFFREMENT
 
-###Créer en 1976, breveté, et tombé dans le domaine publique depuis.
+###Méthode César(décalement de l'alphabet, 25 ossibilitées)
+Créer en 1976, breveté, et tombé dans le domaine publique depuis.
+![chifrement](IMAGES//Chiffrement.png)
+
+## \*SUBSTITUTION (tableau de conversion)
+
+Méthode qui consiste à remplacé avec une autre au hasard.
+
+\*On peut déja deviner les lettres qui renomne
