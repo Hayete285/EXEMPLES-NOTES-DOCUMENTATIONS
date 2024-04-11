@@ -1,5 +1,4 @@
-#SCSS
------
+## #SCSS
 
 1)Mettre en place un fichier html
 
@@ -13,4 +12,4 @@
 
 6)Le lier au html (attention à respecter le sous-dossier et le dossier par ./)
 
-7)Dans la barre en-dessous cliquez sur watching: un message s'affiche et deux fichiers css vons se mettre automatiquement dans style.
+7)Dans la barre en-dessous cliquez sur watching: un message s'affiche et deux fichiers css vont se mettre automatiquement dans style.
