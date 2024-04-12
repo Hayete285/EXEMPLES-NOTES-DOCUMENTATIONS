@@ -1,11 +1,12 @@
-###CHIFFREMENT/DECHIFFREMENT
+## ###CHIFFREMENT/DECHIFFREMENT
 
-###Méthode César(décalement de l'alphabet, 25 ossibilitées)
+## ###Méthode César(décalement de l'alphabet, 25 ossibilitées)
+
 Créer en 1976, breveté, et tombé dans le domaine publique depuis.
 
 ![Chiffrement](Chiffrement.png)
 
-###SUBSTITUTION (tableau de conversion)
+## ###SUBSTITUTION (tableau de conversion)
 
 Méthode qui consiste à remplacé avec une autre au hasard.
 
