@@ -1,17 +1,26 @@
-## ###CHIFFREMENT/DECHIFFREMENT
+================================
 
-===============================
+---#CHIFFREMENT/DECHIFFREMENT---
 
-## ####Méthode César(décalement de l'alphabet, 25 ossibilitées)
+================================
+
+####Méthode César(décalement de l'alphabet, 25 ossibilitées)
 
 Créer en 1976, breveté, et tombé dans le domaine publique depuis.
 
 ![Chiffrement](Chiffrement.png)
 
-## ####SUBSTITUTION (tableau de conversion)
+###SUBSTITUTION (tableau de conversion)
 
 Méthode qui consiste à remplacé avec une autre au hasard.
 
 On peut déja deviner les lettres qui reviennent régulièrement(e, a, s...).
 
-## ###Méthode Monté-Carlo par chaîne(Markof)
+###Méthode Monté-Carlo par chaîne(Markof)
+
+###Méthode par mots-clés
+
+exemple :
+| J | A | R | D | I | N |
+| 9 | 0 | 17| 3 | 8 | 13|
+| A | E | E | G | M | M |
